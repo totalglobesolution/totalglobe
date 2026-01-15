@@ -30,6 +30,19 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
+      
+      {/* Consent Message Section */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="bg-[#f5f0eb] dark:bg-slate-800 rounded-xl p-8 shadow-sm">
+          <p className="text-red-600 dark:text-red-400 text-base leading-relaxed">
+            By providing your phone number and submitting this form, you consent to receive <span className="font-bold">Customer Care</span> and <span className="font-bold">Marketing</span> SMS (text) messages and phone calls. Message and Data Rates may apply, message frequency may vary. You can STOP messaging by sending STOP and get more help by sending HELP.
+          </p>
+          <p className="text-red-600 dark:text-red-400 text-base leading-relaxed mt-4">
+            We value your privacy and will not share your information with third parties without your consent. For more information, please review our <a href="/privacy" className="underline font-bold hover:text-red-700 dark:hover:text-red-300 transition-colors">Privacy Policy</a> & <a href="/terms" className="underline font-bold hover:text-red-700 dark:hover:text-red-300 transition-colors">Terms & Conditions</a> By clicking "Submit," you acknowledge that you have read and agree to the terms of this consent.
+          </p>
+        </div>
+      </section>
+      
       <Footer />
     </main>
   )
