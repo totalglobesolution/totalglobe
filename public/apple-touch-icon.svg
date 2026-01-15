@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="#2563eb"/>
+  
+  <!-- Globe circle -->
+  <circle cx="90" cy="90" r="45" stroke="white" stroke-width="3" fill="none"/>
+  
+  <!-- Globe grid lines -->
+  <path d="M45 90h90" stroke="white" stroke-width="2.5" opacity="0.6"/>
+  <path d="M90 45v90" stroke="white" stroke-width="2.5" opacity="0.6"/>
+  
+  <!-- Curved latitude lines -->
+  <path d="M55 70Q90 65 125 70" stroke="white" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M55 110Q90 115 125 110" stroke="white" stroke-width="1.5" fill="none" opacity="0.5"/>
+  
+  <!-- Signal dots -->
+  <circle cx="110" cy="70" r="5" fill="white"/>
+  <circle cx="70" cy="110" r="5" fill="white"/>
+  <circle cx="90" cy="90" r="4" fill="white"/>
+  
+  <!-- Connection lines -->
+  <line x1="110" y1="70" x2="90" y2="90" stroke="white" stroke-width="2" opacity="0.7"/>
+  <line x1="70" y1="110" x2="90" y2="90" stroke="white" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Company initials -->
+  <text x="90" y="170" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">TGS</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: black; }
+      .foreground { fill: white; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: white; }
+      .foreground { fill: black; }
+    }
+  </style>
+  <g clip-path="url(#clip0_7960_43945)">
+    <rect class="background" width="180" height="180" rx="37" />
+    <g style="transform: scale(95%); transform-origin: center">
+      <!-- Globe circle -->
+      <circle cx="90" cy="90" r="50" class="foreground" fill="none" stroke-width="3" stroke="currentColor"/>
+      
+      <!-- Globe grid lines -->
+      <line x1="40" y1="90" x2="140" y2="90" class="foreground" stroke-width="2" opacity="0.6"/>
+      <line x1="90" y1="40" x2="90" y2="140" class="foreground" stroke-width="2" opacity="0.6"/>
+      
+      <!-- Curved latitude lines -->
+      <path d="M50 75Q90 70 130 75" class="foreground" fill="none" stroke-width="1.5" opacity="0.5"/>
+      <path d="M50 105Q90 110 130 105" class="foreground" fill="none" stroke-width="1.5" opacity="0.5"/>
+      
+      <!-- Connection nodes representing connectivity -->
+      <circle cx="105" cy="75" r="4" class="foreground"/>
+      <circle cx="75" cy="105" r="4" class="foreground"/>
+      <circle cx="90" cy="90" r="3" class="foreground"/>
+      
+      <!-- Connection lines -->
+      <line x1="105" y1="75" x2="90" y2="90" class="foreground" stroke-width="1.5" opacity="0.7"/>
+      <line x1="75" y1="105" x2="90" y2="90" class="foreground" stroke-width="1.5" opacity="0.7"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="clip0_7960_43945">
+      <rect width="180" height="180" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
