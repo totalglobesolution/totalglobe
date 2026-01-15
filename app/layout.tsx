@@ -1,7 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
 import StickyCallButton from "@/components/sticky-call-button"
 import Chatbot from "@/components/chatbot"
 import HelpLightbox from "@/components/help-lightbox"
@@ -32,7 +31,6 @@ export default function RootLayout({
         <HelpLightbox />
         <StickyCallButton />
         <Chatbot />
-        <Analytics />
       </body>
     </html>
   )
