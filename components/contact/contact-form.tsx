@@ -10,10 +10,10 @@ export default function ContactForm() {
     name: "",
     email: "",
     phone: "",
-    subject: "",
     message: "",
   })
   const [submitted, setSubmitted] = useState(false)
+  const [consentChecked, setConsentChecked] = useState(false)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -26,7 +26,8 @@ export default function ContactForm() {
     e.preventDefault()
     setSubmitted(true)
     setTimeout(() => setSubmitted(false), 5000)
-    setFormData({ name: "", email: "", phone: "", subject: "", message: "" })
+    setFormData({ name: "", email: "", phone: "", message: "" })
+    setConsentChecked(false)
   }
 
   return (
@@ -55,7 +56,6 @@ export default function ContactForm() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              required
               className="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:border-accent transition"
               placeholder="Your name"
             />
@@ -70,48 +70,25 @@ export default function ContactForm() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              required
               className="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:border-accent transition"
               placeholder="your@email.com"
             />
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label htmlFor="phone" className="block text-sm font-semibold text-foreground mb-2">
-              Phone
-            </label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-              className="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:border-accent transition"
-              placeholder="(555) 000-0000"
-            />
-          </div>
-          <div>
-            <label htmlFor="subject" className="block text-sm font-semibold text-foreground mb-2">
-              Subject
-            </label>
-            <select
-              id="subject"
-              name="subject"
-              value={formData.subject}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground focus:outline-none focus:border-accent transition"
-            >
-              <option value="">Select a subject</option>
-              <option value="general">General Inquiry</option>
-              <option value="support">Technical Support</option>
-              <option value="billing">Billing Question</option>
-              <option value="plans">Service Plans</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
+        <div>
+          <label htmlFor="phone" className="block text-sm font-semibold text-foreground mb-2">
+            Phone
+          </label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            className="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:border-accent transition"
+            placeholder="(555) 000-0000"
+          />
         </div>
 
         <div>
@@ -123,11 +100,34 @@ export default function ContactForm() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            required
             rows={6}
             className="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder-muted-foreground focus:outline-none focus:border-accent transition resize-none"
             placeholder="Tell us more about your inquiry..."
           />
+        </div>
+
+        {/* Consent Message */}
+        <div className="bg-[#f5f0eb] dark:bg-slate-800 rounded-lg p-6 shadow-sm">
+          <p className="text-red-600 dark:text-red-400 text-sm leading-relaxed">
+            By providing your phone number and submitting this form, you consent to receive <span className="font-bold">Customer Care</span> and <span className="font-bold">Marketing</span> SMS (text) messages and phone calls. Message and Data Rates may apply, message frequency may vary. You can STOP messaging by sending STOP and get more help by sending HELP.
+          </p>
+          <p className="text-red-600 dark:text-red-400 text-sm leading-relaxed mt-3">
+            We value your privacy and will not share your information with third parties without your consent. For more information, please review our <a href="/privacy" className="underline font-bold hover:text-red-700 dark:hover:text-red-300 transition-colors">Privacy Policy</a> & <a href="/terms" className="underline font-bold hover:text-red-700 dark:hover:text-red-300 transition-colors">Terms & Conditions</a> By clicking "Submit," you acknowledge that you have read and agree to the terms of this consent.
+          </p>
+          
+          {/* Checkbox */}
+          <div className="mt-4 flex items-start gap-3">
+            <input
+              type="checkbox"
+              id="consent"
+              checked={consentChecked}
+              onChange={(e) => setConsentChecked(e.target.checked)}
+              className="mt-1 w-4 h-4 text-accent bg-card border-border rounded focus:ring-accent focus:ring-2"
+            />
+            <label htmlFor="consent" className="text-sm text-red-600 dark:text-red-400 cursor-pointer">
+              I agree
+            </label>
+          </div>
         </div>
 
         <button
@@ -135,7 +135,7 @@ export default function ContactForm() {
           className="w-full px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:opacity-90 transition font-semibold text-lg flex items-center justify-center gap-2"
         >
           <Send className="w-5 h-5" />
-          Submit - Call Now: (855) 683-7625
+          Submit
         </button>
       </form>
     </div>

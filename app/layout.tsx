@@ -1,9 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import StickyCallButton from "@/components/sticky-call-button"
 import Chatbot from "@/components/chatbot"
-import HelpLightbox from "@/components/help-lightbox"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -28,8 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans antialiased`} suppressHydrationWarning>
         {children}
-        <HelpLightbox />
-        <StickyCallButton />
         <Chatbot />
       </body>
     </html>
