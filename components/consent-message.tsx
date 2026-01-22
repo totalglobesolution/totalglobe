@@ -13,10 +13,10 @@ export default function ConsentMessage() {
           </div>
           <div className="flex-1 space-y-3">
             <p className="text-sm text-foreground">
-              <strong>By providing your phone number and submitting this form, you consent to</strong> receive SMS (text) messages and phone calls. Message and Data Rates may apply. Message frequency may vary. You can STOP messages by sending STOP and get more help by sending HELP.
+              <strong>By providing your phone number and submitting this form, you consent to</strong> receive SMS (text) messages and phone calls from Total Global Solutions. Message and Data Rates may apply. Message frequency may vary. You can STOP messages by sending STOP and get more help by sending HELP.
             </p>
             <p className="text-sm text-muted-foreground">
-              We value your privacy and will not share your information with third parties without your consent. For more information, please review our{" "}
+              Total Global Solutions values your privacy and will not share your information with third parties without your consent. For more information, please review our{" "}
               <Link href="/privacy" className="text-accent underline hover:text-accent/80 transition-colors font-medium">
                 Privacy Policy
               </Link>

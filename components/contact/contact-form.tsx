@@ -25,10 +25,6 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    if (!smsConsent || !marketingConsent) {
-      alert("Please check both consent checkboxes to submit the form.")
-      return
-    }
     setSubmitted(true)
     setTimeout(() => setSubmitted(false), 5000)
     setFormData({ name: "", email: "", phone: "", message: "" })
@@ -122,7 +118,7 @@ export default function ContactForm() {
             className="mt-1 w-4 h-4 text-accent bg-card border-border rounded focus:ring-accent focus:ring-2 flex-shrink-0"
           />
           <label htmlFor="smsConsent" className="text-sm text-muted-foreground cursor-pointer leading-relaxed">
-            I consent to receive text messages about appointment reminders, delivery notifications, etc. from GetMeConnect at the phone number I provided. I acknowledge that my consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP for assistance or STOP to opt out of receiving messages. For more information, please review our <a href="/privacy" className="text-blue-800 dark:text-blue-400 font-bold hover:underline">Privacy Policy</a> and <a href="/terms" className="text-blue-800 dark:text-blue-400 font-bold hover:underline">Terms and Conditions</a>.
+            I consent to receive text messages about appointment reminders, delivery notifications, etc. from Total Global Solutions at the phone number I provided. I acknowledge that my consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP for assistance or STOP to opt out of receiving messages. For more information, please review our <a href="/privacy" className="text-blue-800 dark:text-blue-400 font-bold hover:underline">Privacy Policy</a> and <a href="/terms" className="text-blue-800 dark:text-blue-400 font-bold hover:underline">Terms and Conditions</a>.
           </label>
         </div>
 
@@ -136,7 +132,7 @@ export default function ContactForm() {
             className="mt-1 w-4 h-4 text-accent bg-card border-border rounded focus:ring-accent focus:ring-2 flex-shrink-0"
           />
           <label htmlFor="marketingConsent" className="text-sm text-muted-foreground cursor-pointer leading-relaxed">
-            I consent to receive marketing text messages, such as Promotional Texts, Sales, Special offers, etc., from GetMeConnect at the phone number I provided, including messages sent via auto dialer. I understand that my consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP for assistance or STOP to opt out of receiving messages. <a href="/privacy" className="text-blue-800 dark:text-blue-400 font-bold hover:underline">Privacy Policy</a> and <a href="/terms" className="text-blue-800 dark:text-blue-400 font-bold hover:underline">Terms and Conditions</a>.
+            I consent to receive marketing text messages, such as Promotional Texts, Sales, Special offers, etc., from Total Global Solutions at the phone number I provided, including messages sent via auto dialer. I understand that my consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP for assistance or STOP to opt out of receiving messages. <a href="/privacy" className="text-blue-800 dark:text-blue-400 font-bold hover:underline">Privacy Policy</a> and <a href="/terms" className="text-blue-800 dark:text-blue-400 font-bold hover:underline">Terms and Conditions</a>.
           </label>
         </div>
 
