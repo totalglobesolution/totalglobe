@@ -9,7 +9,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([
     {
       type: "bot",
-      text: "Hello! 👋 Welcome to Total Global Solutions. How can I assist you today?"
+      text: "Hello! 👋 Welcome to Total Globe Solutions. How can I assist you today?"
     }
   ])
   const [input, setInput] = useState("")
@@ -35,7 +35,7 @@ export default function Chatbot() {
     setTimeout(() => {
       setMessages(prev => [...prev, {
         type: "bot",
-        text: "Thank you for your message! A representative will assist you shortly. For immediate assistance, please call (855) 683-7625."
+        text: "Thank you for your message! A representative will assist you shortly. For immediate assistance, please call (833) 821-1859."
       }])
     }, 1000)
   }
@@ -70,7 +70,7 @@ export default function Chatbot() {
                 <MessageCircle className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-semibold">Total Global Solutions</h3>
+                <h3 className="font-semibold">Total Globe Solutions</h3>
                 <p className="text-xs opacity-90">Online now</p>
               </div>
             </div>
@@ -115,7 +115,7 @@ export default function Chatbot() {
                       setTimeout(() => {
                         setMessages(prev => [...prev, {
                           type: "bot",
-                          text: "Thank you! Please call (855) 683-7625 to speak with a representative."
+                          text: "Thank you! Please call (833) 821-1859 to speak with a representative."
                         }])
                       }, 1000)
                     }}

@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <section className="w-full bg-accent/10 border-y border-accent/30 py-4 text-center text-base text-muted-foreground">
-        <strong className="text-foreground">Disclosure:</strong> Total Global Solutions is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any cable, internet, or telecom service provider.
+        <strong className="text-foreground">Disclosure:</strong> Total Globe Solutions is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any cable, internet, or telecom service provider.
       </section>
       <ComplianceSection />
       <HowWeHelpSection />

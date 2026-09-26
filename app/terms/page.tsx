@@ -2,8 +2,8 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 export const metadata = {
-  title: "Terms & Conditions | Total Global Solutions",
-  description: "Terms and conditions for Total Global Solutions independent service assistance platform.",
+  title: "Terms & Conditions | Total Globe Solutions",
+  description: "Terms and conditions for Total Globe Solutions independent service assistance platform.",
 }
 
 export default function TermsPage() {
@@ -42,14 +42,14 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Agreement to Terms</h2>
               <p>
-                By accessing and using the Total Global Solutions website and services, you accept and agree to be bound by these terms and conditions. If you do not agree to abide by any of these terms, please do not use this service.
+                By accessing and using the Total Globe Solutions website and services, you accept and agree to be bound by these terms and conditions. If you do not agree to abide by any of these terms, please do not use this service.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">2. Service Description</h2>
               <p>
-                Total Global Solutions provides independent guidance and assistance with understanding cable, internet, and streaming service options. We assist individuals and households in navigating their options but do not:
+                Total Globe Solutions provides independent guidance and assistance with understanding cable, internet, and streaming service options. We assist individuals and households in navigating their options but do not:
               </p>
               <ul className="list-disc list-inside space-y-2">
                 <li>Sell internet, cable TV, or streaming plans</li>
@@ -89,21 +89,21 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">6. Disclaimer of Warranties</h2>
               <p>
-                All materials on our website are provided on an "as is" basis. Total Global Solutions makes no warranties, expressed or implied, regarding the accuracy, completeness, or usefulness of information provided. We do not guarantee specific outcomes or provider decisions based on our guidance.
+                All materials on our website are provided on an "as is" basis. Total Globe Solutions makes no warranties, expressed or implied, regarding the accuracy, completeness, or usefulness of information provided. We do not guarantee specific outcomes or provider decisions based on our guidance.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">7. Limitation of Liability</h2>
               <p>
-                In no event shall Total Global Solutions be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use of our services or website, even if advised of the possibility of such damages.
+                In no event shall Total Globe Solutions be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use of our services or website, even if advised of the possibility of such damages.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">8. Provider Responsibility</h2>
               <p>
-                Total Global Solutions is not responsible for the actions, services, or policies of any cable, internet, or streaming service provider. Provider services, billing, and customer support are the sole responsibility of the provider. Our role is guidance and assistance only.
+                Total Globe Solutions is not responsible for the actions, services, or policies of any cable, internet, or streaming service provider. Provider services, billing, and customer support are the sole responsibility of the provider. Our role is guidance and assistance only.
               </p>
             </section>
 

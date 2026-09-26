@@ -4,9 +4,9 @@ import Link from "next/link"
 import { Wifi, Tv, Package, HelpCircle } from "lucide-react"
 
 export const metadata = {
-  title: "Our Services | Total Global Solutions",
+  title: "Our Services | Total Globe Solutions",
   description:
-    "Discover how Total Global Solutions can assist you with cable, internet, streaming, and bundled service guidance. Independent third-party assistance startup launched in 2026.",
+    "Discover how Total Globe Solutions can assist you with cable, internet, streaming, and bundled service guidance. Independent third-party assistance startup launched in 2026.",
 }
 
 export default function ServicesPage() {

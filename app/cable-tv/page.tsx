@@ -2,7 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 export const metadata = {
-  title: "Cable TV Guidance & Support | Total Global Solutions",
+  title: "Cable TV Guidance & Support | Total Globe Solutions",
   description:
     "We guide and assist you in understanding cable TV options, channels, and what service works best for your entertainment needs.",
 }

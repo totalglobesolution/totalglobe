@@ -79,17 +79,17 @@ export default function ComplianceSection() {
             Our Independent Role
           </p>
           <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Total Global Solutions is an independent third-party service assistance provider. We provide informational guidance and support to help you understand your options. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
+            Total Globe Solutions is an independent third-party service assistance provider. We provide informational guidance and support to help you understand your options. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
           </p>
         </div>
 
         {/* Call to Action */}
         <div className="text-center mt-16">
           <a
-            href="tel:+18556837625"
+            href="tel:+18338211859"
             className="inline-block px-8 py-4 bg-accent text-accent-foreground rounded-xl hover:bg-accent/90 transition-all font-bold text-lg flex items-center gap-3 shadow-lg shadow-accent/20 hover:shadow-xl hover:shadow-accent/30"
           >
-            Call Now: (855) 683-7625
+            Call Now: (833) 821-1859
           </a>
         </div>
       </div>

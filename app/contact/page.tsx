@@ -5,8 +5,8 @@ import ContactForm from "@/components/contact/contact-form"
 import ContactInfo from "@/components/contact/contact-info"
 
 export const metadata = {
-  title: "Contact Us | Total Global Solutions",
-  description: "Get in touch with Total Global Solutions. Call, email, or visit us for support and inquiries.",
+  title: "Contact Us | Total Globe Solutions",
+  description: "Get in touch with Total Globe Solutions. Call, email, or visit us for support and inquiries.",
 }
 
 export default function ContactPage() {

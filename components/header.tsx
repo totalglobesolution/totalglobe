@@ -44,13 +44,13 @@ export default function Header() {
           <Link href="/contact" className="text-foreground hover:text-accent transition">
             Contact
           </Link>
-          <button className="px-6 py-2 bg-accent text-accent-foreground rounded-lg hover:opacity-90 transition font-medium flex items-center gap-2">
+          <a href="tel:+18338211859" className="flex items-center gap-2 rounded-lg bg-accent px-6 py-2 font-medium text-accent-foreground transition hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background">
             <Phone className="w-4 h-4" />
-            Call: (855) 683-7625
-          </button>
+            Call: (833) 821-1859
+          </a>
         </div>
 
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-foreground">
+        <button onClick={() => setIsOpen(!isOpen)} className="text-foreground md:hidden" aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"} aria-expanded={isOpen}>
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
@@ -69,10 +69,10 @@ export default function Header() {
               <Link href="/contact" className="text-foreground hover:text-accent transition">
                 Contact
               </Link>
-              <button className="w-full px-6 py-2 bg-accent text-accent-foreground rounded-lg hover:opacity-90 transition font-medium flex items-center justify-center gap-2">
+              <a href="tel:+18338211859" className="flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-6 py-2 font-medium text-accent-foreground transition hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background">
                 <Phone className="w-4 h-4" />
-                Call: (855) 683-7625
-              </button>
+                Call: (833) 821-1859
+              </a>
             </div>
           </div>
         )}

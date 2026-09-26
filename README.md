@@ -1,13 +1,13 @@
-# Total Global Solutions
+# Total Globe Solutions
 
-Official website for Total Global Solutions - Your Independent Connectivity Partner
+Official website for Total Globe Solutions - Your Independent Connectivity Partner
 
 ## 🚀 Live Website
 - **Production**: [https://totalglobesolutions.com](https://totalglobesolutions.com)
 - **GitHub Pages**: [https://totalglobesolution.github.io/totalglobe](https://totalglobesolution.github.io/totalglobe)
 
 ## 📋 About
-Total Global Solutions is an independent third-party service assistance provider offering guidance for cable, internet, and streaming services. Launched in 2026, we help individuals and households navigate their connectivity options with unbiased, transparent advice.
+Total Globe Solutions is an independent third-party service assistance provider offering guidance for cable, internet, and streaming services. Launched in 2026, we help individuals and households navigate their connectivity options with unbiased, transparent advice.
 
 ## 🛠️ Technology Stack
 - **Framework**: Next.js 16.0.10
@@ -82,8 +82,8 @@ The CNAME record is automatically included in deployments via `public/CNAME`.
 
 ## 📞 Contact Information
 
-- **Phone**: (855) 683-7625
-- **Email**: support@totalglobalsolutions.com
+- **Phone**: (833) 821-1859
+- **Email**: support@totalglobesolutions.com
 - **Website**: [totalglobesolutions.com](https://totalglobesolutions.com)
 
 ## ⚖️ Legal
@@ -95,7 +95,7 @@ The CNAME record is automatically included in deployments via `public/CNAME`.
 
 ## 📄 License
 
-© 2026 Total Global Solutions. All rights reserved.
+© 2026 Total Globe Solutions. All rights reserved.
 
 ---
 

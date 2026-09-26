@@ -2,7 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 export const metadata = {
-  title: "Internet Guidance & Support | Total Global Solutions",
+  title: "Internet Guidance & Support | Total Globe Solutions",
   description:
     "We guide and assist you in understanding internet options, speeds, and what works best for your household needs.",
 }

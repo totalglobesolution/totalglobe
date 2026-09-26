@@ -6,8 +6,8 @@ import { useState, useEffect } from "react"
 export default function StickyCallButton() {
   const [isHovered, setIsHovered] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
-  const phoneNumber = "(855) 683-7625"
-  const phoneLink = "+18556837625"
+  const phoneNumber = "(833) 821-1859"
+  const phoneLink = "+18338211859"
 
   useEffect(() => {
     setIsMounted(true)

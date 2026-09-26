@@ -49,7 +49,7 @@ export default function LifestyleSection() {
               Explore TV Plans
             </button>
             <a
-              href="tel:+18556837625"
+              href="tel:+18338211859"
               className="inline-block ml-3 px-8 py-3 border-2 border-accent text-accent rounded-lg hover:bg-accent/10 transition font-semibold flex items-center gap-2"
             >
               Call Now

@@ -13,7 +13,7 @@ export default function AboutStory() {
               Our <span className="text-accent">Story</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-4">
-              Total Global Solutions was founded as an independent third-party service assistance provider dedicated to helping consumers navigate the complex world of internet, cable, and telecom services.
+              Total Globe Solutions was founded as an independent third-party service assistance provider dedicated to helping consumers navigate the complex world of internet, cable, and telecom services.
             </p>
             <p className="text-lg text-muted-foreground mb-4">
               <strong>Our mission is simple:</strong> Provide clear, unbiased guidance and informational support without representing any service provider. We help you understand your options, compare plans, and make informed decisions about your connectivity needs.

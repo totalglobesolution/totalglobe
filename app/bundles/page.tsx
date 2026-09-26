@@ -2,7 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 export const metadata = {
-  title: "Bundle Guidance & Support | Total Global Solutions",
+  title: "Bundle Guidance & Support | Total Globe Solutions",
   description:
     "We guide and assist you in understanding bundled service options that combine internet, cable TV, and other services.",
 }

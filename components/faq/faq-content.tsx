@@ -8,10 +8,10 @@ export default function FaqContent() {
 
   const faqCategories = {
     service: {
-      title: "About Total Global Solutions",
+      title: "About Total Globe Solutions",
       questions: [
         {
-          q: "What is Total Global Solutions?",
+          q: "What is Total Globe Solutions?",
           a: "We are an independent, third-party service assistance startup launched in 2026. We help individuals and households understand and navigate cable, internet, and streaming service options through unbiased guidance.",
         },
         {
@@ -97,7 +97,7 @@ export default function FaqContent() {
     <section className="max-w-4xl mx-auto px-4 py-16">
       <div className="mb-12">
         <h1 className="text-4xl font-bold mb-2">Frequently Asked Questions</h1>
-        <p className="text-muted-foreground">Find answers about Total Global Solutions and how our independent guidance works.</p>
+        <p className="text-muted-foreground">Find answers about Total Globe Solutions and how our independent guidance works.</p>
       </div>
 
       {/* Category Tabs */}
@@ -148,7 +148,7 @@ export default function FaqContent() {
             className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-colors"
           >
             <PhoneIcon className="w-5 h-5" />
-            Call Now: (855) 683-7625
+            Call Now: (833) 821-1859
           </a>
         </div>
       </div>

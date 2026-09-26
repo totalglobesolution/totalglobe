@@ -28,7 +28,7 @@ export default function InternetBenefitsSection() {
     <section className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-16 text-center text-balance">
-          Why Choose <span className="text-accent">Total Global Solutions</span> Internet Guidance
+          Why Choose <span className="text-accent">Total Globe Solutions</span> Internet Guidance
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

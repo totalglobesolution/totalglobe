@@ -1,8 +1,8 @@
-# Google Ads Compliance Updates - Total Global Solutions Website
+# Google Ads Compliance Updates - Total Globe Solutions Website
 
 ## Summary of Changes
 
-Your website has been comprehensively updated to comply with Google Ads "Unacceptable Business Practices" policies. All changes focus on absolute clarity that Total Global Solutions is an independent third-party service assistance provider.
+Your website has been comprehensively updated to comply with Google Ads "Unacceptable Business Practices" policies. All changes focus on absolute clarity that Total Globe Solutions is an independent third-party service assistance provider.
 
 ---
 
@@ -64,7 +64,7 @@ import ComplianceSection from "@/components/home/compliance-section"
 
 ### Updated Disclosure:
 ```
-"Total Global Solutions is an independent third-party service 
+"Total Globe Solutions is an independent third-party service
 assistance provider. We are not affiliated with, authorized by, or 
 endorsed by any cable, internet, or telecom service provider."
 ```
@@ -110,7 +110,7 @@ endorsed by any cable, internet, or telecom service provider."
 ```
 "What This Means
 
-Total Global Solutions is an independent third-party service 
+Total Globe Solutions is an independent third-party service
 assistance provider. We are NOT affiliated with, authorized by, or 
 endorsed by any internet service provider, cable company, or telecom 
 carrier. We do not sell services directly, and we charge separate 
@@ -145,7 +145,7 @@ support only."
 
 ### Updated Disclaimer:
 ```
-"Total Global Solutions is an independent third-party service 
+"Total Globe Solutions is an independent third-party service
 assistance provider. We are NOT affiliated with, authorized by, or 
 endorsed by any internet, cable, or telecom service provider. Brand 
 names, if mentioned, are used strictly for informational purposes 

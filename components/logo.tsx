@@ -6,7 +6,7 @@ export default function Logo({ className = "" }: { className?: string }) {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      {/* Stylized TBS Icon */}
+      {/* Stylized Total Globe Solutions icon */}
       <g>
         {/* Outer hexagon frame */}
         <path
@@ -45,7 +45,7 @@ export default function Logo({ className = "" }: { className?: string }) {
         fill="currentColor"
         className="text-foreground"
       >
-        Total Global
+        Total Globe
       </text>
       <text
         x="52"

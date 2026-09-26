@@ -2,8 +2,8 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 export const metadata = {
-  title: "Privacy Policy | Total Global Solutions",
-  description: "Privacy policy for Total Global Solutions. Learn how we protect your data as an independent service assistance startup.",
+  title: "Privacy Policy | Total Globe Solutions",
+  description: "Privacy policy for Total Globe Solutions. Learn how we protect your data as an independent service assistance startup.",
 }
 
 export default function PrivacyPage() {
@@ -38,14 +38,14 @@ export default function PrivacyPage() {
 
             <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 mb-6">
               <p className="text-sm">
-                <strong className="text-foreground">Important Disclosure:</strong> Total Global Solutions is an independent third-party service assistance startup, launched in 2026. We are not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We do not request or store provider passwords or sensitive credentials.
+                <strong className="text-foreground">Important Disclosure:</strong> Total Globe Solutions is an independent third-party service assistance startup, launched in 2026. We are not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We do not request or store provider passwords or sensitive credentials.
               </p>
             </div>
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Introduction</h2>
               <p>
-                Total Global Solutions ("we," "us," "our," or "Company") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services to seek guidance and assistance with cable, internet, and streaming options.
+                Total Globe Solutions ("we," "us," "our," or "Company") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services to seek guidance and assistance with cable, internet, and streaming options.
               </p>
             </section>
 
@@ -69,7 +69,7 @@ export default function PrivacyPage() {
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">3. How We Use Your Information</h2>
-              <p>Total Global Solutions uses collected information to:</p>
+              <p>Total Globe Solutions uses collected information to:</p>
               <ul className="list-disc list-inside space-y-2">
                 <li>Provide guidance and assistance with service options</li>
                 <li>Respond to your inquiries and requests</li>

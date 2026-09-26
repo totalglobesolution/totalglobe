@@ -2,9 +2,9 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react"
 
 export default function ContactInfo() {
   const contactMethods = [
-    { icon: Phone, label: "Phone", value: "(855) 683-7625" },
-    { icon: Mail, label: "Email", value: "support@totalbusinesssolutions.com" },
-    { icon: MapPin, label: "Address", value: "123 Main Street, Springfield, IL 62701" },
+    { icon: Phone, label: "Phone", value: "(833) 821-1859" },
+    { icon: Mail, label: "Email", value: "support@totalglobesolutions.com" },
+    { icon: MapPin, label: "Address", value: "3400 N Alma School Rd Apt 1016, Chandler, AZ 85224-8012" },
     { icon: Clock, label: "Hours", value: "24/7 Available" },
   ]
 

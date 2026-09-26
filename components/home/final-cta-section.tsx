@@ -14,13 +14,13 @@ export default function FinalCtaSection() {
         <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
           Ready to Get <span className="text-accent">Connected</span>?
         </h2>
-        <p className="text-lg text-muted-foreground mb-8">Check availability with Total Global Solutions today.</p>
+        <p className="text-lg text-muted-foreground mb-8">Check availability with Total Globe Solutions today.</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="px-8 py-4 bg-accent text-accent-foreground rounded-lg hover:opacity-90 transition font-semibold text-lg flex items-center justify-center gap-2">
-            Call Now: (855) 683-7625
+            Call Now: (833) 821-1859
           </button>
           <button className="px-8 py-4 border-2 border-accent text-accent rounded-lg hover:bg-accent/10 transition font-semibold text-lg flex items-center justify-center gap-2">
-            Call Now: (855) 683-7625
+            Call Now: (833) 821-1859
           </button>
         </div>
       </div>

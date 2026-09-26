@@ -20,7 +20,7 @@ export default function InternetFaqSection() {
     {
       question: "Do you have a data cap?",
       answer:
-        "No, all Total Global Solutions internet plans include unlimited data. You can stream, download, and browse without worrying about data limits.",
+        "No, all Total Globe Solutions internet plans include unlimited data. You can stream, download, and browse without worrying about data limits.",
     },
     {
       question: "What equipment do I need?",

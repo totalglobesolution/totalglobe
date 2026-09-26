@@ -26,14 +26,14 @@ export default function CookiePolicyPage() {
         <div className="prose prose-invert max-w-none">
           <div className="bg-accent/10 border border-accent/30 rounded-lg p-4 mb-8">
             <p className="text-sm">
-              <strong className="text-foreground">Important Note:</strong> Total Global Solutions is an independent third-party service assistance startup, not a cable, internet, or streaming service provider. Our cookies are used solely for website functionality and analytics—we do not use cookies to collect or share provider account information.
+              <strong className="text-foreground">Important Note:</strong> Total Globe Solutions is an independent third-party service assistance startup, not a cable, internet, or streaming service provider. Our cookies are used solely for website functionality and analytics—we do not use cookies to collect or share provider account information.
             </p>
           </div>
 
           <h2 className="text-3xl font-bold text-foreground mb-6">Cookie Policy</h2>
 
           <p className="text-lg text-muted-foreground mb-8">
-            Total Global Solutions uses cookies and similar technologies to improve your experience on our website. This policy
+            Total Globe Solutions uses cookies and similar technologies to improve your experience on our website. This policy
             explains what cookies are, how we use them, and your choices regarding their use.
           </p>
 
@@ -100,7 +100,7 @@ export default function CookiePolicyPage() {
           <p className="text-muted-foreground mb-6">
             We may allow third parties (such as analytics providers and advertising partners) to set cookies on our
             website. These third parties have their own privacy policies and are responsible for their cookie practices.
-            Total Global Solutions does not authorize any third parties to collect provider account information or passwords.
+            Total Globe Solutions does not authorize any third parties to collect provider account information or passwords.
           </p>
 
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">What We Do NOT Track</h3>
@@ -115,7 +115,7 @@ export default function CookiePolicyPage() {
           </ul>
 
           <p className="text-sm text-muted-foreground mt-12 pt-8 border-t border-border">
-            <strong>Disclaimer:</strong> Total Global Solutions is an independent service assistance startup. This cookie policy applies to
+            <strong>Disclaimer:</strong> Total Globe Solutions is an independent service assistance startup. This cookie policy applies to
             our website only. Please review the privacy policies of service providers for information about their
             data practices.
           </p>

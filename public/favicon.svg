@@ -1,24 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="none">
-  <!-- Background -->
-  <rect width="50" height="50" rx="12" fill="#2563eb"/>
-  
-  <!-- Globe circle -->
-  <circle cx="25" cy="25" r="14" stroke="white" stroke-width="2" fill="none"/>
-  
-  <!-- Globe grid lines -->
-  <path d="M15 25h20" stroke="white" stroke-width="1.5" opacity="0.6"/>
-  <path d="M25 11v28" stroke="white" stroke-width="1.5" opacity="0.6"/>
-  
-  <!-- Curved latitude lines -->
-  <path d="M17 20Q25 18 33 20" stroke="white" stroke-width="1" fill="none" opacity="0.5"/>
-  <path d="M17 30Q25 32 33 30" stroke="white" stroke-width="1" fill="none" opacity="0.5"/>
-  
-  <!-- Signal dots representing connectivity -->
-  <circle cx="28" cy="22" r="2" fill="white"/>
-  <circle cx="22" cy="28" r="2" fill="white"/>
-  <circle cx="25" cy="25" r="1.5" fill="white"/>
-  
-  <!-- Connection lines -->
-  <line x1="28" y1="22" x2="25" y2="25" stroke="white" stroke-width="0.8" opacity="0.7"/>
-  <line x1="22" y1="28" x2="25" y2="25" stroke="white" stroke-width="0.8" opacity="0.7"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <rect width="180" height="180" rx="36" fill="#071d24"/>
+  <path d="M90 28L142 56V112L90 140L38 112V56L90 28Z" stroke="#22c7d8" stroke-width="8"/>
+  <path d="M58 70H122M90 70V116" stroke="#22c7d8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="90" cy="86" r="6" fill="#22c7d8"/>
+  <path d="M142 56L160 47M142 112L160 121M38 56L20 47" stroke="#22c7d8" stroke-width="6" stroke-linecap="round" opacity=".6"/>
 </svg>

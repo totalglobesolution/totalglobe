@@ -11,7 +11,7 @@ export default function AboutHero() {
 
       <div className="relative z-10 text-center max-w-3xl mx-auto px-4">
         <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-          About <span className="text-accent">Total Global Solutions</span>
+          About <span className="text-accent">Total Globe Solutions</span>
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
           Independent guidance for cable and internet services since 2026.

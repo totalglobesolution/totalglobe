@@ -26,7 +26,7 @@ export default function DisclaimerPage() {
           <div className="bg-accent/10 border border-accent/30 rounded-lg p-6 mb-8">
             <h2 className="text-2xl font-bold text-foreground mb-4">Critical Disclaimer</h2>
             <p className="text-foreground font-semibold">
-              Total Global Solutions is an independent third-party service assistance startup, launched in 2026. We are NOT:
+              Total Globe Solutions is an independent third-party service assistance startup, launched in 2026. We are NOT:
             </p>
             <ul className="list-disc list-inside space-y-2 text-foreground mt-3">
               <li>A service provider (we do not sell internet, cable TV, or streaming services)</li>
@@ -41,7 +41,7 @@ export default function DisclaimerPage() {
 
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">What We Do</h3>
           <p className="text-muted-foreground mb-6">
-            Total Global Solutions provides independent guidance and assistance to help individuals understand cable, internet, and streaming service options. We:
+            Total Globe Solutions provides independent guidance and assistance to help individuals understand cable, internet, and streaming service options. We:
           </p>
           <ul className="list-disc list-inside space-y-2 text-muted-foreground mb-6">
             <li>Research service options and provider offerings based on your needs</li>
@@ -53,7 +53,7 @@ export default function DisclaimerPage() {
 
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">What We Do NOT Do</h3>
           <p className="text-muted-foreground mb-6">
-            To be absolutely clear, Total Global Solutions does not:
+            To be absolutely clear, Total Globe Solutions does not:
           </p>
           <ul className="list-disc list-inside space-y-2 text-muted-foreground mb-6">
             <li>Sell, resell, or represent any cable, internet, or streaming services</li>
@@ -66,7 +66,7 @@ export default function DisclaimerPage() {
 
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Service Fees</h3>
           <p className="text-muted-foreground mb-6">
-            Total Global Solutions charges fees for our guidance and assistance services. These fees are:
+            Total Globe Solutions charges fees for our guidance and assistance services. These fees are:
           </p>
           <ul className="list-disc list-inside space-y-2 text-muted-foreground mb-6">
             <li>Completely separate from and independent of provider charges</li>
@@ -80,14 +80,14 @@ export default function DisclaimerPage() {
 
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Services As-Is</h3>
           <p className="text-muted-foreground mb-6">
-            All services and information provided on this website are offered "as is." Total Global Solutions makes no
+            All services and information provided on this website are offered "as is." Total Globe Solutions makes no
             representations or warranties of any kind, express or implied, as to the operation of this website or the
             information, content, materials, or products included on this website.
           </p>
 
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">No Warranty</h3>
           <p className="text-muted-foreground mb-6">
-            To the full extent permissible by applicable law, Total Global Solutions disclaims all warranties, express or
+            To the full extent permissible by applicable law, Total Globe Solutions disclaims all warranties, express or
             implied, including but not limited to implied warranties of merchantability and fitness for a particular
             purpose. We provide guidance based on information available at the time of service; outcomes depend entirely
             on provider decisions and circumstances beyond our control.
@@ -95,7 +95,7 @@ export default function DisclaimerPage() {
 
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Third-Party Content</h3>
           <p className="text-muted-foreground mb-6">
-            This website may contain links to third-party websites. Total Global Solutions is not responsible for the
+            This website may contain links to third-party websites. Total Globe Solutions is not responsible for the
             content, accuracy, or practices of external websites. Your use of third-party websites is at your own risk
             and subject to their terms of service and privacy policies.
           </p>
@@ -103,13 +103,13 @@ export default function DisclaimerPage() {
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Service Provider Responsibility</h3>
           <p className="text-muted-foreground mb-6">
             For technical support, service issues, billing questions, or other service-related concerns, please contact
-            the actual service provider directly. Total Global Solutions can provide contact information and general guidance but
+            the actual service provider directly. Total Globe Solutions can provide contact information and general guidance but
             is not responsible for service provision, quality, or any provider decisions.
           </p>
 
           <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Limitation of Liability</h3>
           <p className="text-muted-foreground mb-6">
-            In no event shall Total Global Solutions be liable for any indirect, incidental, special, consequential, or
+            In no event shall Total Globe Solutions be liable for any indirect, incidental, special, consequential, or
             punitive damages, or any loss of profits or revenue, whether incurred directly or indirectly, arising out of
             your use of or inability to use this website or the services offered.
           </p>

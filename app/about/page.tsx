@@ -6,9 +6,9 @@ import AboutValues from "@/components/about/about-values"
 import AboutStats from "@/components/about/about-stats"
 
 export const metadata = {
-  title: "About Total Global Solutions | Independent Service Assistance Startup",
+  title: "About Total Globe Solutions | Independent Service Assistance Startup",
   description:
-    "Learn about Total Global Solutions, an independent third-party service assistance startup launched in 2026. We guide and assist households in navigating cable, internet, and streaming options without representing any provider.",
+    "Learn about Total Globe Solutions, an independent third-party service assistance startup launched in 2026. We guide and assist households in navigating cable, internet, and streaming options without representing any provider.",
 }
 
 export default function AboutPage() {

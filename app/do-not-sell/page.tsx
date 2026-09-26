@@ -2,7 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 export const metadata = {
-  title: "Do Not Sell My Personal Information | Total Global Solutions",
+  title: "Do Not Sell My Personal Information | Total Globe Solutions",
   description: "Information about your privacy rights regarding personal data sales.",
 }
 
@@ -45,7 +45,7 @@ export default function DoNotSellPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Do Not Sell or Share My Personal Information</h2>
               <p>
                 You have the right to opt out of the "sale" or "sharing" of your personal information. As an independent
-                dealer, Total Global Solutions does not sell your personal information to third parties for marketing purposes. We
+                dealer, Total Globe Solutions does not sell your personal information to third parties for marketing purposes. We
                 only share information with service providers necessary to fulfill your service request.
               </p>
             </section>
@@ -66,13 +66,13 @@ export default function DoNotSellPage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">How to Submit a Request</h2>
               <p>To exercise your privacy rights, please submit a written request to:</p>
               <p>
-                Total Global Solutions Privacy Rights
+                Total Globe Solutions Privacy Rights
                 <br />
-                Email: privacy@totalglobalsolutions.com
+                Email: privacy@totalglobesolutions.com
                 <br />
-                Phone: (855) 683-7625
+                Phone: (833) 821-1859
                 <br />
-                Mail: 123 Main Street, Springfield, IL 62701
+                Mail: 3400 N Alma School Rd Apt 1016, Chandler, AZ 85224-8012
               </p>
               <p>
                 Please include "Privacy Request" in the subject line and provide sufficient information to verify your

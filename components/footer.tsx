@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <h2 className="text-2xl font-bold text-foreground mb-2">
-                Total<span className="text-accent">Global</span>
+                Total<span className="text-accent">Globe</span>
               </h2>
               <p className="text-accent text-sm font-semibold">YOUR CONNECTIVITY PARTNER</p>
             </div>
@@ -24,11 +24,17 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-muted-foreground hover:text-accent transition">
                 <Phone className="w-4 h-4 text-accent" />
-                <a href="tel:+18556837625" className="text-sm">(855) 683-7625</a>
+                <a href="tel:+18338211859" className="text-sm">(833) 821-1859</a>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground hover:text-accent transition">
                 <Mail className="w-4 h-4 text-accent" />
-                <a href="mailto:support@totalbusinesssolutions.com" className="text-sm">support@totalbusinesssolutions.com</a>
+                <a href="mailto:support@totalglobesolutions.com" className="text-sm">support@totalglobesolutions.com</a>
+              </div>
+              <div className="flex items-start gap-3 text-muted-foreground">
+                <MapPin className="w-4 h-4 text-accent mt-0.5 shrink-0" />
+                <address className="text-sm not-italic">
+                  3400 N Alma School Rd Apt 1016, Chandler, AZ 85224-8012
+                </address>
               </div>
             </div>
           </div>
@@ -138,7 +144,7 @@ export default function Footer() {
             <div className="bg-card/50 border border-border rounded-lg p-6">
               <h5 className="font-bold text-foreground mb-3 text-sm">Disclaimer</h5>
               <p className="text-xs text-muted-foreground leading-relaxed">
-                Total Global Solutions is an independent third-party service assistance provider. We are NOT affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider. Brand names, if mentioned, are used strictly for informational purposes only. We do not sell services directly and charge separate fees for our guidance.
+                Total Globe Solutions is an independent third-party service assistance provider owned and operated by its parent company, TOTAL TECH GUARD LLC. We are NOT affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider. Brand names, if mentioned, are used strictly for informational purposes only. We do not sell services directly and charge separate fees for our guidance.
               </p>
             </div>
 
@@ -167,7 +173,7 @@ export default function Footer() {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-muted-foreground">
-              &copy; {currentYear} <span className="font-semibold text-foreground">Total Global Solutions</span>. All rights reserved.
+              &copy; {currentYear} <span className="font-semibold text-foreground">Total Globe Solutions</span>. All rights reserved.
             </p>
             <div className="flex gap-6 text-xs text-muted-foreground">
               <Link href="/privacy" className="hover:text-accent transition">

@@ -2,8 +2,8 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 export const metadata = {
-  title: "Advertising Disclosure | Total Global Solutions",
-  description: "Advertising and FTC disclosure for Total Global Solutions.",
+  title: "Advertising Disclosure | Total Globe Solutions",
+  description: "Advertising and FTC disclosure for Total Globe Solutions.",
 }
 
 export default function DisclosurePage() {
@@ -42,7 +42,7 @@ export default function DisclosurePage() {
                 </strong>
               </p>
               <p>
-                Total Global Solutions is an independent authorized dealer, not the cable or internet service provider. We
+                Total Globe Solutions is an independent authorized dealer, not the cable or internet service provider. We
                 are compensated by service providers for referring customers. This means we may receive commissions or
                 other compensation when you sign up for services through us. This compensation does not affect the price
                 you pay.
@@ -53,7 +53,7 @@ export default function DisclosurePage() {
               <h2 className="text-2xl font-bold text-foreground mb-4">Service Provider Information</h2>
               <p>
                 We partner with major cable and internet service providers to offer their services in your area. The
-                actual services are provided by these third-party providers, not by Total Global Solutions. For service
+                actual services are provided by these third-party providers, not by Total Globe Solutions. For service
                 support, billing issues, or technical problems, you may need to contact the actual service provider
                 directly.
               </p>
@@ -98,9 +98,9 @@ export default function DisclosurePage() {
               <p>
                 For questions about this disclosure or to verify our status as an independent dealer, contact us at:
                 <br />
-                Phone: (855) 683-7625
+                Phone: (833) 821-1859
                 <br />
-                Email: disclosure@talkpointsolutions.com
+                Email: disclosure@totalglobesolutions.com
               </p>
             </section>
           </div>

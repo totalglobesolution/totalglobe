@@ -4,8 +4,8 @@ import FaqHero from "@/components/faq/faq-hero"
 import FaqContent from "@/components/faq/faq-content"
 
 export const metadata = {
-  title: "FAQ | Total Global Solutions",
-  description: "Frequently asked questions about Total Global Solutions services, billing, and support.",
+  title: "FAQ | Total Globe Solutions",
+  description: "Frequently asked questions about Total Globe Solutions services, billing, and support.",
 }
 
 export default function FaqPage() {

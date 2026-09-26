@@ -126,11 +126,11 @@ export default function HeroSection() {
                 }`}
               >
                 <button className="group px-8 py-4 bg-accent text-accent-foreground rounded-xl hover:bg-accent/90 transition-all font-semibold text-lg flex items-center gap-2 shadow-lg shadow-accent/20 hover:shadow-xl hover:shadow-accent/30 hover:scale-105">
-                  Talk to an Advisor: (855) 683-7625
+                  Talk to an Advisor: (833) 821-1859
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
                 <button className="px-8 py-4 bg-card/50 backdrop-blur text-foreground border border-border rounded-xl hover:border-accent/50 transition-all font-semibold text-lg flex items-center gap-2 hover:scale-105">
-                  Get Guidance: (855) 683-7625
+                  Get Guidance: (833) 821-1859
                 </button>
               </div>
 
